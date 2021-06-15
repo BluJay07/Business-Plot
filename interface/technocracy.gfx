@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ideology_technocracy_group"
+		texturefile = "gfx//interface//ideologies//technocracy_group.dds"
+	}
+}

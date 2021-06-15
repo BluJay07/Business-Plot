@@ -1,0 +1,14 @@
+state={
+	id=814
+	name="STATE_814"
+	provinces={
+		1830 7855 7884 10679 10694 12661 13090 
+	}
+	history={
+		owner = AFT
+		add_core_of = AFT
+		}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+}
