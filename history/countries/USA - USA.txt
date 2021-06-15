@@ -247,11 +247,10 @@ set_popularities = {
 }
 
 add_ideas = {
-	undisturbed_isolation
-	great_depression
-	disarmed_nation
 	free_trade
 	home_of_the_free
+	legitimate_america
+	american_warlord
 }
 
 1939.1.1 = {

@@ -122,3 +122,7 @@ create_country_leader = {
 		neutrality = 50
 	}
 }
+
+add_ideas = {
+	american_warlord
+}

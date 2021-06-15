@@ -1,0 +1,10 @@
+spriteTypes = {	
+	SpriteType = {
+		name = "GFX_idea_legit_america"
+		texturefile = "gfx/interface/ideas/legit_america_icon.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_american_warlord"
+		texturefile = "gfx/interface/ideas/american_warlord_icon.dds"	
+	}
+}

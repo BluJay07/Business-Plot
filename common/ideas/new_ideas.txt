@@ -1,0 +1,57 @@
+ideas = {
+
+	country = {
+		legitimate_america = {
+			picture = legit_america
+			
+			allowed = {
+				tag = USA
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_gain = 0.3
+				stability_factor = 0.3
+			}
+		}
+	}
+	
+		country = {
+		american_warlord = {
+			picture = american_warlord
+			
+			allowed = {
+				tag = USA
+				tag = AFT
+				tag = AMM
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				guarantee_cost = 5.0
+				join_faction_tension = 5.0
+				puppet_cost_factor = 2.0
+				ai_focus_aggressive_factor = 0.3
+				ai_focus_defense_factor = -0.2
+			}
+		}
+	}
+}
