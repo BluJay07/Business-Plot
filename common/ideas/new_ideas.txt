@@ -25,7 +25,7 @@ ideas = {
 		}
 	}
 	
-		country = {
+	country = {
 		american_warlord = {
 			picture = american_warlord
 			
@@ -51,6 +51,144 @@ ideas = {
 				puppet_cost_factor = 2.0
 				ai_focus_aggressive_factor = 0.3
 				ai_focus_defense_factor = -0.2
+			}
+		}
+	}
+
+	country = {
+		bad_admin = {
+			picture = bad_admin
+			
+			allowed = {
+				tag = DBA
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_cost = 0.5
+				stability_factor = -0.2
+				war_support_factor = -0.2
+				consumer_goods_factor = 0.05
+			}
+		}
+	}
+	
+	country = {
+		dust_bowl = {
+			picture = dust_bowl
+			
+			allowed = {
+				tag = DBA
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				conscription = -0.01
+				monthly_population = -0.05
+			}
+		}
+	}
+	
+	country = {
+		german_american = {
+			picture = german_american
+			
+			allowed = {
+				tag = DAB
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				fascism_acceptance = 50
+				war_support_factor = 0.25
+				monthly_population = -0.1
+				conscription = 0.03
+			}
+		}
+	}
+	
+	country = {
+		lone_tech = {
+			picture = lone_tech
+			
+			allowed = {
+				tag = NAT
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+				
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				opinion_gain_monthly = -5
+				trade_opinion_factor = -0.5
+				max_surrender_limit_offset = 0.2
+				war_support_weekly = 0.005
+				research_speed_factor = 0.25
+			}
+		}
+	}
+	
+	country = {
+		war_extreme = {
+			picture = war_extreme
+			
+			allowed = {
+				tag = COD
+			}
+			
+			available = {
+			}
+			
+			cancel = {
+				
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				conscription = -0.01
+				political_power_cost = 0.5
+				stability_factor = -0.2
+				production_factory_max_efficiency_factor = -0.3
+				consumer_goods_factor = 0.15
 			}
 		}
 	}

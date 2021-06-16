@@ -1,4 +1,4 @@
-﻿capital = 378
+﻿capital = 818
 
 # Starting tech
 set_technology = {
@@ -54,35 +54,35 @@ set_convoys = 20
 
 
 set_politics = {
-	ruling_party = technocracy
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 10
-	fascism = 0
-	communism = 0
-	neutrality = 0
-	technocracy = 90
+	democratic = 60
+	fascism = 5
+	communism = 5
+	neutrality = 30
+	technocracy = 0
 }
 
 create_country_leader = {
-	name = "Howard Scott"
+	name = "Ayn Rand"
 	desc = ""
-	picture = "HowardScott.dds"
-	ideology = energy
+	picture = "AynRand.dds"
+	ideology = minimum
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Konrad Adenauer"
+	name = "Defenders of the NAP"
 	desc = ""
-	picture = "Portrait_Germany_Konrad_Adenauer.dds"
-	ideology = conservatism
+	picture = "AnCap.dds"
+	ideology = ancap
 	traits = {
 		#
 	}
@@ -103,17 +103,7 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Ahmed Ben Bella"
-	desc = ""
-	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
 add_ideas = {
 	american_warlord
-	lone_tech
+	free_trade
 }

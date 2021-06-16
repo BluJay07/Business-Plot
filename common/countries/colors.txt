@@ -731,3 +731,7 @@ AMM = {
 	color = rgb { 63 100 127 }
 	color_ui = rgb { 63 100 127 }
 }
+NET = {
+	color = rgb { 127 116 63 }
+	color_ui = rgb { 127 116 63 }
+}

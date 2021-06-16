@@ -95,4 +95,6 @@ create_country_leader = {
 
 add_ideas = {
 	american_warlord
+	bad_admin
+	dust_bowl
 }

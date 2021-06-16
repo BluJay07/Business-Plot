@@ -7,4 +7,24 @@ spriteTypes = {
 		name = "GFX_idea_american_warlord"
 		texturefile = "gfx/interface/ideas/american_warlord_icon.dds"	
 	}
+	SpriteType = {
+		name = "GFX_idea_bad_admin"
+		texturefile = "gfx/interface/ideas/bad_admin_icon.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_dust_bowl"
+		texturefile = "gfx/interface/ideas/dust_bowl_icon.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_german_american"
+		texturefile = "gfx/interface/ideas/german_american_icon.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_lone_tech"
+		texturefile = "gfx/interface/ideas/lone_tech_icon.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_war_extreme"
+		texturefile = "gfx/interface/ideas/war_extreme_icon.dds"	
+	}
 }

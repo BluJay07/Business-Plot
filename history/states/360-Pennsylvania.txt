@@ -12,7 +12,7 @@ state={
 
 
 	history={
-		owner = AMR
+		owner = NET
 		buildings = {
 			infrastructure = 8
 			industrial_complex = 5
@@ -25,6 +25,7 @@ state={
 		}
 		add_core_of = USA
 		add_core_of = AMR
+		add_core_of = NET
 		victory_points = {
 			6845 20
 		}

@@ -114,4 +114,5 @@ create_country_leader = {
 
 add_ideas = {
 	american_warlord
+	german_american
 }

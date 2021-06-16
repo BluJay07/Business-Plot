@@ -1,0 +1,21 @@
+state={
+	id=816
+	name="STATE_816"
+	resources={
+		steel=4.000
+	}
+	history = {
+	owner = NET
+	add_core_of = USA
+	add_core_of = NET
+	buildings = {
+	infrastructure = 5
+	}
+	}
+	provinces={
+		733 3712 3715 10481 
+	}
+	manpower=481000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

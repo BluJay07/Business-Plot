@@ -54,6 +54,9 @@ ideologies = {
 		
 			socialism = {
 			}
+			
+			minimum = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -232,6 +235,10 @@ ideologies = {
 			}
 			
 			centrism = {
+			}
+			
+			ancap = {
+				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 		}
 
